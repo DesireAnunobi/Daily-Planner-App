@@ -2,16 +2,21 @@
 Skills Boot Camp in Front-End Web Development - Module-7-challenge - Third-Party APIs
 
 ## Description
-This Module 6 Challenge was created for the Front-End Web Developer boot camp students. The task was to create an application that
+This Module 6 Challenge was created for the Front-End Web Developer boot camp students. The task was to create an application that will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 What I learnt?
-- 
+- Advanced JavaScript
+- jQuery
 
 I encountered some challenges on the way including:
-- 
+- DOM manipulation
+- Integration of third-party APIs
 
 Link to the deployed application here:
 
+https://github.com/DesireAnunobi/Daily-Planner-App
+
+https://desireanunobi.github.io/Daily-Planner-App/
 
 
 ## Table of Contents
@@ -24,12 +29,31 @@ Link to the deployed application here:
 n/a
 
 ## Usage
+User Story
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 
+Acceptance Criteria
+The app should:
+- Display the current day at the top of the calendar when a user opens the planner.
+- Present timeblocks for standard business hours when the user scrolls down.
+- Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+- Allow a user to enter an event when they click a timeblock.
+- Save the event in local storage when the save button is clicked in that timeblock.
+- Persist events between refreshes of a page.
 
-![Screenshot](/)
+![Screenshot](/assets/images/Capture1.PNG)
    
 ## Credits
 https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12374120#overview 
+https://day.js.org/docs/en/display/format
+https://cdnjs.cloudflare.com/
+https://www.w3schools.com/jquery/default.asp
+https://stackoverflow.com/questions/tagged/jquery
+https://stackoverflow.com/questions/78064884/inserting-an-array-into-a-table-javascript
+https://www.w3schools.com/howto/howto_css_three_columns.asp
+https://stackoverflow.com/questions/8441104/whats-the-best-data-structure-for-a-calendar-day-planner
 
 
 ## License
