@@ -6,7 +6,7 @@ function getLocalStorage(key) {
 }
 
 $( document ).ready(function() {
-    $("#currentDay").text(moment().format("dddd Do MMMM"));
+    $("#currentDay").text(moment().format("dddd Do MMMM YYYY - hh:mm A"));
     for (let i = 8; i < 19; i++) {
     
         // Create row
